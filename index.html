@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Multiple Validations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body bgcolor="#E7CCCC">
+    <div style="text-align: center; font-size: 20px;">
+      <div style="text-align: center; font-size: 20px;">
+        <h2 style="font-size: 40px; background-color: lightcoral;"><b><u>FORM WITH MULTIPLE VALIDATIONS...</u></b></h2>
+        <hr>
+       
+        <div class="form">
+            <form id="myForm" class="container" onsubmit="return validateForm()">
+              
+                <h2 style="margin-top: 100px;">Student Registration Form</h1>
+                
+                <label for="name">Name :</label><br>
+                <input type="text" id="name" name="name"><br>
+                <span id="nameWarning" class="warning">Name should only contain alphabets.</span><br><br>
+
+                <label for="roll">Roll Number :</label><br>
+                <input type="text" id="roll" name="roll"><br>
+                <span id="rollWarning" class="warning">Roll number should be a 7-digit positive number.</span><br><br>
+
+                <label for="dob">Date of Birth :</label><br>
+                <input type="date" id="dob" name="dob" style="text-align: center;"><br>
+                <span id="dobWarning" class="warning">Please enter your date of birth.</span><br><br>
+
+                <label>Gender :</label><br>
+                <input type="radio" name="gender" value="Male"> Male<br>
+                <input type="radio" name="gender" value="Female"> Female<br>
+                <input type="radio" name="gender" value="Other"> Other<br>
+                <span id="genderWarning" class="warning">Please select your gender.</span><br><br>
+
+                <label for="course">Course :</label><br>
+                <select id="course" name="course">
+                    <option value="" style="text-align: center;">-- Select Course --</option>
+                    <option value="BMS"> Bachelor of Management Studies (BMS)</option>
+                    <option value="BBA"> Bachelor of Business Administration(Finance)</option>
+                    <option value="BSC"> Bachelor of Science(Hons) Computer Science(Bsc)</option>
+                    <option value="BCA"> Bachelor of Computer Applications(bca)</option>
+                </select><br>
+                <span id="courseWarning" class="warning">Please select a course.</span><br><br>
+
+                <label>Favorite Subjects :</label><br>
+                <input type="checkbox" name="subject" value="Math"> Math<br>
+                <input type="checkbox" name="subject" value="Science"> Science<br>
+                <input type="checkbox" name="subject" value="English"> English<br>
+                <input type="checkbox" name="subject" value="History"> History<br>
+                <input type="checkbox" name="subject" value="Computer Science"> Computer <br>Science<br>
+                <span id="subjectWarning" class="warning">Please select at least one subject.</span><br><br>
+
+                <input class="btn" type="submit" value="SUBMIT">
+                <input class="btn" type="button" value="RESET" onclick="resetForm()">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
