@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NISHTHA AND APARA AND SHAMBHAVI .</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Black Theme Layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-<body bgcolor="#E7CCCC">
-    <div style="text-align: center; font-size: 20px;">
-      <div style="text-align: center; font-size: 20px;">
-        <h2 style="font-size: 40px; background-color: lightcoral;"><b><u>FORM WITH MULTIPLE VALIDATIONS...</u></b></h2>
-        <hr>
-       
-        <div class="form">
-            <form id="myForm" class="container" onsubmit="return validateForm()">
-              
-                <h2 style="margin-top: 100px;">Student Registration Form</h1>
-                
-                <label for="name">Name :</label><br>
-                <input type="text" id="name" name="name"><br>
-                <span id="nameWarning" class="warning">Name should only contain alphabets.</span><br><br>
-
-                <label for="roll">Roll Number :</label><br>
-                <input type="text" id="roll" name="roll"><br>
-                <span id="rollWarning" class="warning">Roll number should be a 7-digit positive number.</span><br><br>
-
-                <label for="dob">Date of Birth :</label><br>
-                <input type="date" id="dob" name="dob" style="text-align: center;"><br>
-                <span id="dobWarning" class="warning">Please enter your date of birth.</span><br><br>
-
-                <label>Gender :</label><br>
-                <input type="radio" name="gender" value="Male"> Male<br>
-                <input type="radio" name="gender" value="Female"> Female<br>
-                <input type="radio" name="gender" value="Other"> Other<br>
-                <span id="genderWarning" class="warning">Please select your gender.</span><br><br>
-
-                <label for="course">Course :</label><br>
-                <select id="course" name="course">
-                    <option value="" style="text-align: center;">-- Select Course --</option>
-                    <option value="BMS"> Bachelor of Management Studies (BMS)</option>
-                    <option value="BBA"> Bachelor of Business Administration(Finance)</option>
-                    <option value="BSC"> Bachelor of Science(Hons) Computer Science(Bsc)</option>
-                    <option value="BCA"> Bachelor of Computer Applications(bca)</option>
-                </select><br>
-                <span id="courseWarning" class="warning">Please select a course.</span><br><br>
-
-                <label>Favorite Subjects :</label><br>
-                <input type="checkbox" name="subject" value="Math"> Math<br>
-                <input type="checkbox" name="subject" value="Science"> Science<br>
-                <input type="checkbox" name="subject" value="English"> English<br>
-                <input type="checkbox" name="subject" value="History"> History<br>
-                <input type="checkbox" name="subject" value="Computer Science"> Computer <br>Science<br>
-                <span id="subjectWarning" class="warning">Please select at least one subject.</span><br><br>
-
-                <input class="btn" type="submit" value="SUBMIT">
-                <input class="btn" type="button" value="RESET" onclick="resetForm()">
-            </form>
+<body class="bg-black text-white font-sans">
+    <!-- Navbar -->
+    <div class="navbar sticky top-0 flex justify-between items-center px-5 py-3 bg-white/10">
+        <div class="logo">
+            <a href="#" class="text-white hover:underline">Logo</a>
+        </div>
+        <div class="links flex space-x-4">
+            <a href="#" class="text-white hover:underline">Home</a>
+            <a href="#" class="text-white hover:underline">About</a>
+            <a href="#" class="text-white hover:underline">Contact</a>
         </div>
     </div>
 
-    <script src="script.js"></script>
-</body>
+    <!-- Sidebar -->
+    <div class="sidebar fixed top-0 left-0 h-full w-52 bg-gray-800 p-5">
+        <a href="#section1" class="block text-white hover:underline mb-3">Link 1</a>
+        <a href="#section2" class="block text-white hover:underline mb-3">Link 2</a>
+        <a href="#section3" class="block text-white hover:underline mb-3">Link 3</a>
+        <a href="#section4" class="block text-white hover:underline mb-3">Link 4</a>
+        <a href="#section5" class="block text-white hover:underline mb-3">Link 5</a>
+        <a href="#section6" class="block text-white hover:underline mb-3">Link 6</a>
+    </div>
 
+    <!-- Content -->
+    <div class="content ml-56 p-5 space-y-10">
+        <section id="section1" class="py-10">
+            <h2 class="text-xl font-bold">Section 1</h2>
+            <p class="mt-3">Content for section 1 goes here. Add any details you want to display for this section.</p>
+        </section>
+
+        <section id="section2" class="py-10">
+            <h2 class="text-xl font-bold">Section 2</h2>
+            <p class="mt-3">Content for section 2 goes here. Add any details you want to display for this section.</p>
+        </section>
+
+        <section id="section3" class="py-10">
+            <h2 class="text-xl font-bold">Section 3</h2>
+            <p class="mt-3">Content for section 3 goes here. Add any details you want to display for this section.</p>
+        </section>
+
+        <section id="section4" class="py-10">
+            <h2 class="text-xl font-bold">Section 4</h2>
+            <p class="mt-3">Content for section 4 goes here. Add any details you want to display for this section.</p>
+        </section>
+        <section id="section5" class="py-10">
+            <h2 class="text-xl font-bold">Section 5</h2>
+            <p class="mt-3">Content for section 3 goes here. Add any details you want to display for this section.</p>
+        </section>
+
+        <section id="section6" class="py-10">
+            <h2 class="text-xl font-bold">Section 6</h2>
+            <p class="mt-3">Content for section 4 goes here. Add any details you want to display for this section.</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer bottom-0 w-full bg-white/10 text-center py-3">
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </div>
+</body>
 </html>
