@@ -11,46 +11,62 @@
   <body class="bg-black text-white font-sans">
     <!-- Navbar -->
     <div
-      class="navbar sticky top-0 flex justify-between items-center px-5 py-3 bg-transparent"
+      class="navbar sticky top-0 flex justify-between items-center h-[8vh] px-5 py-3 bg-black"
     >
-      <div class="ml-56"></div>
+      <div class="ml-64 gap-2 text-2xl"></div>
+
       <div class="links flex space-x-4">
-        <a href="#" class="text-white hover:underline">Home</a>
-        <a href="#" class="text-white hover:underline">About</a>
-        <a href="#" class="text-white hover:underline">Contact</a>
+        <a href="#" class="text-white hover:underline">DISCOVER</a>
+        <a href="#" class="text-white hover:underline">MY LIBRARY</a>
+        <a href="#" class="text-white hover:underline">RADIO</a>
+      </div>
+      <div>
+        <input
+          type="text"
+          placeholder="Search artists, albums..."
+          class="bg-white bg-opacity-90 p-2 w-[600px] rounded-lg border border-blue-300 shadow-lg"
+        />
+      </div>
+      <div>
+        <img
+          src="./letter-a.png"
+          alt="profile"
+          class="h-12 w-12 rounded-full bg-white"
+        />
       </div>
     </div>
-
     <!-- Sidebar -->
     <div
-      class="sidebar fixed top-0 left-0 h-full w-60 bg-black-800 p-5 shadow-xl shadow-white z-10"
+      class="sidebar fixed top-0 left-1 h-full w-60 bg-black-800 p-5 shadow-xl shadow-white z-10"
     >
-      <div class="logo mb-6 flex flex-col">
-        <div><img src="./flower1.svg" alt="flower" class="h-6" /></div>
+      <div class="logo mb-6 flex items-center">
+        <div><img src="./flower1.svg" alt="flower" class="h-8 m-0" /></div>
         <div>
-          <a href="#" class="text-white hover:underline text-2xl font-bold"
+          <a href="#" class="text-white hover:underline text-3xl font-bold"
             >AlgoRhythm</a
           >
         </div>
       </div>
-      <a href="#section1" class="block text-white hover:underline mb-3"
-        >Link 1</a
-      >
-      <a href="#section2" class="block text-white hover:underline mb-3"
-        >Link 2</a
-      >
-      <a href="#section3" class="block text-white hover:underline mb-3"
-        >Link 3</a
-      >
-      <a href="#section4" class="block text-white hover:underline mb-3"
-        >Link 4</a
-      >
-      <a href="#section5" class="block text-white hover:underline mb-3"
-        >Link 5</a
-      >
-      <a href="#section6" class="block text-white hover:underline mb-3"
-        >Link 6</a
-      >
+      <div class="ml-10 mt-20 text-2xl">
+        <a href="#section1" class="block text-white hover:underline mb-3"
+          >Link 1</a
+        >
+        <a href="#section2" class="block text-white hover:underline mb-3"
+          >Link 2</a
+        >
+        <a href="#section3" class="block text-white hover:underline mb-3"
+          >Link 3</a
+        >
+        <a href="#section4" class="block text-white hover:underline mb-3"
+          >Link 4</a
+        >
+        <a href="#section5" class="block text-white hover:underline mb-3"
+          >Link 5</a
+        >
+        <a href="#section6" class="block text-white hover:underline mb-3"
+          >Link 6</a
+        >
+      </div>
     </div>
 
     <!-- Content -->
@@ -62,8 +78,8 @@
         >
           <div class="lg:w-1/2">
             <img
-              src="./images/iphone.png"
-              class="mx-auto lg:ml-auto"
+              src="./jungkookie.png"
+              class="mx-auto"
               alt="App image"
               loading="lazy"
             />
