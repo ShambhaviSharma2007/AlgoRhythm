@@ -32,7 +32,7 @@
       </div>
       <div>
         <img
-          src="./letter-a.png"
+          src="./images/letter-a.png"
           alt="profile"
           class="h-12 w-12 rounded-full bg-white"
         />
@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="ml-10 mt-20 text-md">
-        <a href="#section1" class="block text-white hover:underline mb-3"
+        <a href="#Home" class="block text-white hover:underline mb-3"
           >Home</a
         >
         <a href="#section2" class="block text-white hover:underline mb-3"
@@ -60,29 +60,29 @@
         <a href="#section3" class="block text-white hover:underline mb-3"
           >Popular Albums</a
         >
-        <a href="#section4" class="block text-white hover:underline mb-3"
+        <a href="#section8" class="block text-white hover:underline mb-3"
           >Podcasts</a
         >
         <a href="#section5" class="block text-white hover:underline mb-3"
-          >Link 5</a
+          >Hindi Hits</a
         >
         <a href="#section6" class="block text-white hover:underline mb-3"
-          >Link 6</a
+          >English Melody</a
         >
       </div>
     </div>
 
     <!-- Content -->
-    <div class="content ml-64 space-y-10">
+    <div class="content ml-64  ">
       <!-- Title -->
-      <section id="title" class="gradient-background pt-10 h-[100vh]">
+      <section id="Home" class="gradient-background pt-10 h-[100vh]">
         <div
           class="container flex flex-col lg:flex-row items-center space-y-5 lg:space-y-0 lg:space-x-10  h-full  bg-gradient-to-t from-black to-25% to-transparent "
         >
           <div class="lg:w-1/2">
             <img
               src="./images/seven3.png"
-              class="mx-auto h-[40rem] rounded-2xl shadow-white shadow-2xl"
+              class="mx-auto h-[35rem] rounded-2xl shadow-white shadow-2xl"
               alt="App image"
               loading="lazy"
             />
@@ -118,7 +118,7 @@
         </div>
       </section>
 
-      <section id="section2" class="py-10">
+      <section id="section2" class="py-10 px-8 bg-black">
         <div id="section-2">
             <h1 class="popular-artist font-bold">Popular Artists</h1>
     
@@ -164,7 +164,7 @@
     </section>
     
 
-    <section id="section3" class="py-10">
+    <section id="section3" class="py-10 px-8  bg-black">
       <div id="section-3 overflow-hidden">
           <h1 class="popular-albums font-bold">Popular Albums</h1>
 
@@ -210,14 +210,101 @@
     </section>
         
 
-    <section >
-      
+    <section id="section7" class="gradient-background relative z-[-1]">
+      <div class="h-[80vh] flex justify-around items-center px-8 z-10">
+        <div class=" ml-32 w-full h-[80vh] fixed top-32 left-0 z-10 bg-transparent">
+          <div class="flex justify-center items-center gap-36">
+          <div>
+            <img src="./images/card/yours.png" class="rounded-lg shadow-2xl shadow-zinc-300">
+          </div>
+          <div class="text-white">
+            <div class="flex flex-row justify-start items-center">
+              <button class="flex items-center justify-center bg-purple-700 shadow-zinc-200 shadow-md hover:bg-purple-900 py-4 px-4 rounded-full mb-4">
+                <img src="./images/card/play.png" class="h-5 w-5">
+              </button>
+              <button class="flex items-center justify-center py-2 px-4 rounded-full mb-4">
+                <img src="./images/card/plus.png" class="h-8 w-8 ">
+              </button>
+              <button class="flex items-center justify-center py-2 rounded-full mb-4">
+                <img src="./images/card/more.png" class="h-6 w-6 ">
+              </button>
+            </div>
+            <p class="text-3xl font-bold" style="text-shadow: 4px 4px 6px black;">Lyrics</p><br>
+            <p class="space-y-2" style="text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);">
+              I wanna be your setting lotion (wanna be)<br>
+              Hold your hair in deep devotion (How deep?)<br>
+              At least as deep as the Pacific Ocean<br>
+              Now I wanna be yours<br><br>
+              Secrets I have held in my heart<br>
+              Are harder to hide than I thought<br>
+              Maybe I just wanna be yours<br>
+              <br>
+              I wanna be yours, I wanna be yours<br>
+              Wanna be yours<br>
+              Wanna be yours<br>
+              Wanna be yours<br>
+              Wanna be yours....
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
     </section>
+    
+   
+    
+    
+    
 
 
-    <section id="section4" class="py-10">
+    <section id="section4" class="py-10 px-8  bg-black">
       <div id="section-4 overflow-hidden">
           <h1 class="popular-albums font-bold">K-Pop Wave</h1>
+
+          <div class="all-albums">
+              <div class="album">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/kpopwave/bibi.png" alt="">
+                  <div class="album-name">
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Vengeance</p>
+                  </div>
+              </div>
+              <div class="album">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg  rounded-md" src="./images/kpopwave/loveshot.png" alt="">
+                  <div class="album-name">
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Love Shot</p>
+                  </div>
+              </div>
+              <div class="album">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/kpopwave/shutdown.png" alt="">
+                  <div class="album-name">
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Shut Down</p>
+                  </div>
+              </div>
+              <div class="album">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/kpopwave/dejavu.png" alt="">
+                  <div class="album-name">
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Deja Vu</p>
+                  </div>
+              </div>
+              <div class="album">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/kpopwave/queencard.png" alt="">
+                  <div class="album-name">
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Queen Card</p>
+                  </div>
+              </div>
+              <div class="album">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/kpopwave/fakelove.png" alt="">
+                  <div class="album-name">
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Fake Love</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="section5" class="py-10 px-8  bg-black">
+      <div id="section-5 overflow-hidden">
+          <h1 class="popular-albums font-bold">Hindi Hits</h1>
 
           <div class="all-albums">
               <div class="album">
@@ -227,7 +314,7 @@
                   </div>
               </div>
               <div class="album">
-                  <img class="album-img transition-shadow duration-300 hover:shadow-lg  rounded-md" src="./images/shortnsweetalbum.jpg" alt="">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/shortnsweetalbum.jpg" alt="">
                   <div class="album-name">
                       <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Short 'n Sweet</p>
                   </div>
@@ -260,7 +347,7 @@
       </div>
     </section>
 
-    <section id="section-4">
+    <section id="section8" class="bg-black">
       <h1 class="popular-albums font-bold">Podcasts</h1>
       <div
         class="card-container flex items-center justify-center gap-6 mb-10 px-20"
@@ -323,45 +410,45 @@
       </div>
     </section>
 
-    <section id="section6" class="py-10">
+    <section id="section6" class="py-10 px-8  bg-black">
       <div id="section-6 overflow-hidden">
-          <h1 class="popular-albums font-bold">Popular Albums</h1>
+          <h1 class="popular-albums font-bold">English Melody</h1>
 
           <div class="all-albums">
               <div class="album">
-                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/bornpink1.png" alt="">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/englishmelody/dandelions.png" alt="">
                   <div class="album-name">
-                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Born Pink</p>
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Dandelions</p>
                   </div>
               </div>
               <div class="album">
-                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/shortnsweetalbum.jpg" alt="">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/englishmelody/senorita.png" alt="">
                   <div class="album-name">
-                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Short 'n Sweet</p>
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Senorita</p>
                   </div>
               </div>
               <div class="album">
-                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/goldenalbum.jpg" alt="">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/englishmelody/34.png" alt="">
                   <div class="album-name">
-                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Golden</p>
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">34+35</p>
                   </div>
               </div>
               <div class="album">
-                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/starboyalbum.jpg" alt="">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/englishmelody/killbill.png" alt="">
                   <div class="album-name">
-                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Starboy</p>
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Kill Bill</p>
                   </div>
               </div>
               <div class="album">
-                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/repalbum.jpg" alt="">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/englishmelody/water.png" alt="">
                   <div class="album-name">
-                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Reputation</p>
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Water</p>
                   </div>
               </div>
               <div class="album">
-                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/midnightsalbum.jpg" alt="">
+                  <img class="album-img transition-shadow duration-300 hover:shadow-lg rounded-md" src="./images/englishmelody/yours.png" alt="">
                   <div class="album-name">
-                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Midnights</p>
+                      <p class="text-md font-bold mt-2 hover:translate-y-2 transition-transform duration-300 cursor-pointer">Die with a Smile</p>
                   </div>
               </div>
           </div>
