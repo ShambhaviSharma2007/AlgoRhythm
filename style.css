@@ -44,3 +44,35 @@
     font-size: large;
     
   }
+
+.popular-artist{
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.all-artists{
+    display: flex;
+    
+}
+
+img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.artist{
+    margin-left: 6px;
+    margin-right: 6px;          
+}
+
+.artist-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
