@@ -52,13 +52,15 @@ nav{
 
 .all-artists{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  gap: 0.75rem;
+ 
 }
 
 .artist-img{
-  height: 15rem;
-  width: 15rem;
+  height: 12rem;
+  width: 12rem;
   border-radius: 50%;
 }
 
@@ -87,6 +89,7 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.75rem
 }
 
 .album-img{
@@ -104,4 +107,23 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.artist-img {
+  border-radius: 50%; 
+  transition: box-shadow 0.3s ease; 
+}
+
+.artist:hover .artist-img {
+  box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.5);
+
+}
+
+.album-img {
+  transition: box-shadow 0.3s ease; 
+}
+
+.album:hover .album-img {
+  box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.5);
+
 }
