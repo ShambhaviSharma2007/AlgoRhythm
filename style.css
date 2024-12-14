@@ -1,78 +1,107 @@
 .gradient-background {
-    background: linear-gradient(300deg, #000000, #216d84, #7E1891, #2a8482, #1a2e53);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+  background: linear-gradient(300deg, #000000, #216d84, #7E1891, #2a8482, #1a2e53);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  75%{
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+*{
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+}
+nav{
+  background-color:#2E073F ;
+}
+.row{
+  font-size: large;
   
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    25% {
-      background-position: 100% 50%;
-    }
-    50% {
-      background-position: 0% 50%;
-    }
-    75%{
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  .icon-square {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 0.75rem;
-  }
-  
-  .profile-img {
-    height: 100px;
-    border-radius: 50%;
-  }
-  
-  *{
-    font-family: "Caveat", serif;
-    font-optical-sizing: auto;
-  }
-  nav{
-    background-color:#2E073F ;
-  }
-  .row{
-    font-size: large;
-    
-  }
+}
 
 .popular-artist{
-    margin-bottom: 10px;
-    font-size: xx-large;
+  margin-bottom: 10px;
+  font-size: xx-large;
 }
 
 .all-artists{
-    display: flex;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-img{
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
+.artist-img{
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
 }
 
 .artist{
-    margin-left: 6px;
-    margin-right: 6px;          
+  margin-left: 6px;
+  margin-right: 6px;          
 }
 
 .artist-name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h3{
-    padding-top: 0.5rem;
-    font-size: 1.5rem;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.popular-albums{
+  margin-bottom: 10px;
+  font-size: xx-large;
+}
+
+.all-albums{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-img{
+  height: 15rem;
+  width: 15rem;
+  border-radius: 0;
+}
+
+.album{
+  margin-left: 6px;
+  margin-right: 6px;          
+}
+
+.album-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
