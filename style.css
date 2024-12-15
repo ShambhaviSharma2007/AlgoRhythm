@@ -56,10 +56,10 @@
   border-radius: 50%;
 }
 
-*{
+/* *{
   font-family: "Caveat", serif;
   font-optical-sizing: auto;
-}
+} */
 nav{
   background-color:#2E073F ;
 }
@@ -80,8 +80,8 @@ nav{
 }
 
 .artist-img{
-  height: 15rem;
-  width: 15rem;
+  height: 12rem;
+  width: 12rem;
   border-radius: 50%;
 }
 
@@ -145,4 +145,102 @@ h3{
 .album:hover .album-img {
   box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.5);
 
+}
+
+#section8{
+  width: 100vw;
+}
+
+.PLAYLIST-KA-SECTION{
+  display: flex;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+.one-playlist{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  width: 40vw;
+  margin: 0.5rem;
+}
+
+.one-playlist img{
+  margin: 0.5rem;
+}
+
+#playlists{
+  font-size: 3rem;
+}
+
+.playlist{
+  height: 5rem;
+  width: 5rem;
+}
+
+.playlist-name h4{
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.one-playlist:hover{
+  cursor: pointer;
+  border: 3px solid #acabab;
+}
+
+.playlist-name .likes{
+  margin-left: 1rem;
+  top: 0.8rem;
+}
+
+.one-playlist .seemore{
+  color: #3a3a3a;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.section-8-1{
+  width: 10vw;
+}
+
+
+.playlist-name p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.playlist-duration, .playlist-plays {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.playlist-duration {
+  margin-top: 0.2rem;
+}
+
+.playlist-plays {
+  margin-top: 0.2rem;
+}
+
+/* .one-playlist:hover {
+  cursor: pointer;
+  border: 3px solid #acabab;
+  background-color: #f0f0f0;
+} */
+
+.seemore {
+  color: #3a3a3a;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.playlist-name .likes {
+  margin-left: 1rem;
+  top: 0.8rem;
 }

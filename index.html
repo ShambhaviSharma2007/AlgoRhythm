@@ -27,14 +27,14 @@
         <input
           type="text"
           placeholder="Search artists, albums..."
-          class="bg-white bg-opacity-90 p-2 w-[600px] rounded-lg border border-blue-300 shadow-lg"
+          class="bg-white bg-opacity-90 p-2 w-[600px] rounded-full border border-blue-300 shadow-lg text-center text-black"
         />
       </div>
       <div>
         <img
           src="./images/letter-a.png"
           alt="profile"
-          class="h-12 w-12 rounded-full bg-white"
+          class="h-9 w-9 rounded-full bg-white"
         />
       </div>
     </div>
@@ -42,15 +42,10 @@
     <div
       class="sidebar fixed top-0 left-1 h-full w-60 bg-black-800 p-5 shadow-xl shadow-zinc-500/70 z-10"
     >
-      <div class="logo mb-6 flex items-center">
-        <div><img src="flower1.svg" alt="flower" class="h-8 m-0" /></div>
-        <div>
-          <a href="#" class="text-white hover:underline text-3xl font-bold"
-            >AlgoRhythm</a
-          >
-        </div>
-      </div>
-      <div class="ml-10 mt-20 text-md">
+    <div class="logo mb-6 flex items-center">
+      <div><img src="/images/logo.png" alt="flower" class="h-12 w-60 m-0" /></div>
+    </div>
+      <div class="ml-10 mt-8 mb-10 text-md">
         <a href="#Home" class="block text-white hover:underline mb-3"
           >Home</a
         >
@@ -70,6 +65,9 @@
           >English Melody</a
         >
       </div>
+      <div>
+        <img src="/images/album.png" class="rounded-2xl " alt="album" style=" box-shadow: 0 2px 10px 4px rgba(228, 223, 223, 0.5);;">
+      </div>
     </div>
 
     <!-- Content -->
@@ -88,28 +86,28 @@
             />
           </div>
           <div class="lg:w-1/2 text-center lg:text-left">
-            <h1 class="text-4xl font-bold mb-4">
+            <h1 class="text-4xl font-bold mb-8">
               Album <br>
               ✨GOLDEN - JungKook 2023
             </h1>
-            <p class="text-lg mb-6 ml-4">
+            <p class="text-lg mb-6 ml-4 mr-10">
                 Jungkook's song "Seven" is a smooth, R&B-inspired track released on July 14, 2023. Featuring Latto, the song explores themes of love, passion, and devotion, with Jungkook expressing his commitment to being with his partner "seven days a week." Its catchy melody, sultry vibe, and heartfelt lyrics resonate with fans, blending Jungkook's vocals with Latto's dynamic rap. The song gained massive popularity, topping charts globally, showcasing Jungkook's versatility as a solo artist outside of BTS.
             </p>
             <div
-              class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 gap-2 sm:space-y-0 sm:space-x-4"
+              class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 gap-0 sm:space-y-0 sm:space-x-4"
             >
               <button
-                class="bg-black text-white py-3 px-8 flex items-center space-x-2 transition duration-300 transform hover:scale-105 hover:bg-gray-800 rounded-xl"
+                class="bg-black text-white py-3 px-8 flex items-center space-x-2 transition duration-300 transform hover:scale-105 hover:bg-purple-600 rounded-full"
               >
-                Play
+                Play<img src="./images/card/play.png" class="h-5 w-5 ml-2">
               </button>
               <button
-                class="border-2 border-black py-3 px-6 flex items-center space-x-2 transition duration-300 transform hover:bg-black hover:border-black-600 rounded-xl"
+                class="border-2 border-black py-3 px-6 flex items-center space-x-2 transition duration-300 transform hover:bg-black hover:border-black-600 rounded-full "
               > 
                Follow
               </button>
               <button
-                class="border-2 border-black py-3 px-6 flex items-center space-x-2 transition duration-300 transform hover:bg-black hover:border-black-600 rounded-xl"
+                class="border-2 border-black py-3 px-6 flex items-center space-x-2 transition duration-300 transform hover:bg-black hover:border-black-600 rounded-full"
               > 
                Explore!
               </button>
@@ -302,7 +300,7 @@
       </div>
     </section>
 
-    <section id="section5" class="py-10 px-8  bg-black">
+    <section id="section5" class="py-10 px-8 bg-black ">
       <div id="section-5 overflow-hidden">
           <h1 class="popular-albums font-bold">Hindi Hits</h1>
 
@@ -347,13 +345,13 @@
       </div>
     </section>
 
-    <section id="section8" class="bg-black">
+    <section id="section8" class="bg-black h-[80vh]">
       <h1 class="popular-albums font-bold">Podcasts</h1>
       <div
         class="card-container flex items-center justify-center gap-6 mb-10 px-20"
       >
         <div
-          class="card1 w-1/2 bg-pink-300 rounded-lg px-10 py-8 rounded-md border-b-4 border-2 border-r-4 border-black flex justify-between items-center gap-10"
+          class="h-[70vh] card1 w-1/2 bg-pink-300 rounded-lg px-10 py-8 rounded-md border-b-4 border-2 border-r-4 border-black flex justify-between items-center gap-10"
         >
           <div class="card-img">
             <img src="./images/PODCASTS1.png" alt="img" class="w-64" />
@@ -362,14 +360,14 @@
             <div class="text-2xl font-bold">LORE by Aaron Mahnke</div>
             <div class="font-semibold text-lg max-w-md">
               <u>About</u> <br />
-              The award-winning podcast about dark historical tales. Each
+              The award-winning podcast(also a TV show & book series) about dark historical tales. Each
               episode explores the mysterious creatures, tragic events, and
               unusual places that fill the pages of history. Because sometimes
               the truth is more frightening than fiction. 
             </div>
             <div>
               <button
-                class="border-2 border-black py-3 px-6 flex items-center space-x-2 transition duration-300 transform hover:bg-blue-800 hover:border-black-600 rounded-xl"
+                class="border-2 border-black py-3 px-6 flex items-center space-x-2 transition duration-300 transform hover:bg-purple-500 hover:border-white rounded-full"
               >
                 Explore!
               </button>
@@ -378,7 +376,7 @@
         </div>
 
         <div
-          class="card1 w-1/2 bg-blue-300 rounded-lg px-10 py-8 rounded-md border-b-4 border-2 border-r-4 border-black flex justify-between items-center gap-10"
+          class="h-[70vh] card1 w-1/2 bg-blue-300 rounded-lg px-10 py-8 rounded-md border-b-4 border-2 border-r-4 border-black flex justify-between items-center gap-10"
         >
           <div class="card-img">
             <img src="./images/PODCASTS2.png" alt="img" class="w-64" />
@@ -393,11 +391,11 @@
               a mission to add more empathy and diversity to the paranormal,
               supernatural. Each episode
               includes true stories that share a theme, with Sapphire's
-              thoughtful commentary weaving them together.
+              thoughtful commentary weaving them together. 
             </div>
             <div>
               <button
-              class="border-2 border-black py-3 px-6 flex items-center space-x-2 transition duration-300 transform hover:bg-blue-800 hover:border-black-600 rounded-xl"
+              class="border-2 border-black py-3 px-6 flex items-center space-x-2 transition duration-300 transform hover:bg-purple-500 hover:border-white rounded-full"
             >
               Explore!
             </button>
@@ -452,7 +450,184 @@
       </div>
     </section>
 
+    <section id="section8" class="py-10 bg-black">
+      <!-- <h2 class="text-xl font-bold">Section 4</h2>
+      <p class="mt-3">Content for section 4 goes here. Add any details you want to display for this section.</p> -->
+
+      <div>
+          <h1 id="playlists">Playlists</h1>
+      </div>
       
+      <!-- sick of coming up with class names ahgggg -->
+      <div class="PLAYLIST-KA-SECTION"> 
+          <div class="section-4-1 leftside "> 
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_1.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>Songs that feel like a warm hug!</h4>
+                      <p class="likes"> &hearts; 477</p>
+                      <p class="playlist-duration">Duration: 45 min</p>
+                      <p class="playlist-plays">Plays: 3200</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_2.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>if my wishes came true it wouldv'e been you</h4>
+                      <p class="likes"> &hearts; 1024</p>
+                      <p class="playlist-duration">Duration: 55 min</p>
+                      <p class="playlist-plays">Plays: 1500</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_3.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>the vampire diaries vibes</h4>
+                      <p class="likes"> &hearts; 23678</p>
+                      <p class="playlist-duration">Duration: 60 min</p>
+                      <p class="playlist-plays">Plays: 4500</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_4.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>im so depressed i act like it's my birthday</h4>
+                      <p class="likes"> &hearts; 3459</p>
+                      <p class="playlist-duration">Duration: 40 min</p>
+                      <p class="playlist-plays">Plays: 2100</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_5.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>bollywood love songs</h4>
+                      <p class="likes"> &hearts; 477</p>
+                      <p class="playlist-duration">Duration: 50 min</p>
+                      <p class="playlist-plays">Plays: 800</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_6.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>mom, im the rich man</h4>
+                      <p class="likes"> &hearts; 477</p>
+                      <p class="playlist-duration">Duration: 42 min</p>
+                      <p class="playlist-plays">Plays: 1200</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+          </div>
+
+          <div class="section-4-1 rightside"> 
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_7.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>Hindi gaano ki vibe alag hai</h4>
+                      <p class="likes"> &hearts; 477</p>
+                      <p class="playlist-duration">Duration: 45 min</p>
+                      <p class="playlist-plays">Plays: 3200</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_8.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>espanol musicaaa</h4>
+                      <p class="likes"> &hearts; 1024</p>
+                      <p class="playlist-duration">Duration: 55 min</p>
+                      <p class="playlist-plays">Plays: 1500</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_9.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>oh darling all of the city light never shine as bright as ur eyes</h4>
+                      <p class="likes"> &hearts; 23678</p>
+                      <p class="playlist-duration">Duration: 60 min</p>
+                      <p class="playlist-plays">Plays: 4500</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_10.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>my baby's fit like a daydream</h4>
+                      <p class="likes"> &hearts; 3459</p>
+                      <p class="playlist-duration">Duration: 40 min</p>
+                      <p class="playlist-plays">Plays: 2100</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_11.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>songs you can scream to!!!</h4>
+                      <p class="likes"> &hearts; 477</p>
+                      <p class="playlist-duration">Duration: 50 min</p>
+                      <p class="playlist-plays">Plays: 800</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+
+              <div class="one-playlist py-16">
+                  
+                  <div>
+                      <img class="playlist" src="images/playlist_12.jpg" alt="">
+                  </div>
+                  <div class="playlist-name"><h4>i drive down different roads, but they all lead bact to u</h4>
+                      <p class="likes"> &hearts; 477</p>
+                      <p class="playlist-duration">Duration: 42 min</p>
+                      <p class="playlist-plays">Plays: 1200</p>
+                  </div>
+                  <div class="seemore"><b>see more...</b></div>
+              </div>
+          </div>
+
+
+
+      </div>
+    </section>
+
      
     <!-- Footer -->
     <section id="footer">
